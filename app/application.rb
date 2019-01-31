@@ -16,7 +16,7 @@ class Application
         resp.write "We don't have that item"
         resp.status = 400
       end
-      
+
     else
       resp.write "Route not found"
       resp.status = 404
